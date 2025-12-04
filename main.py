@@ -54,7 +54,7 @@ if ano != "Todos":
 
 
 media_gols = (
-    dfToFilter.groupby("time_mandante")["gols_mandante"]
+    dfToFilter.groupby(tipo[0])[tipo[1]]
     .mean()
     .sort_values()
 )
@@ -134,3 +134,45 @@ else:
         st.pyplot(fig)
     else:
         st.warning(f"Sem dados para {time_selecionado}")
+    fig, ax = plt.subplots(figsize=(12, 6))
+    ax.plot(media_ano.index, media_ano.values, marker="o")
+    ax.set_title(f"Média de gols por ano — {time}")
+    ax.set_xlabel("Ano")
+    ax.set_ylabel("Média de gols")
+
+    st.pyplot(fig)
+
+    if ano == "Todos":
+        # Média de publico por ano
+        publico_medio_ano = (
+        dfToFilter[dfToFilter[tipo[0]] == time]
+        .groupby("ano_campeonato")["publico"]
+        .mean()
+        .sort_index()
+    )
+        texto = f"Média de publico por ano {opcao}"
+    else:
+        # Média de publico por rodada
+        publico_medio_ano = (
+            dfToFilter[dfToFilter[tipo[0]] == time]
+            .groupby("rodada")["publico"]
+            .mean()
+            .sort_index()
+        )   
+        texto = f"Média de publico por rodada {opcao}"
+
+    print(publico_medio_ano)
+
+    fig1, ax1 = plt.subplots(figsize=(12, 6))
+    # fazer um if pra trocar por rodada tambem
+    st.subheader(texto)
+
+    ax1.plot(publico_medio_ano.index.astype(int), publico_medio_ano.values, marker="o")
+    #ax1.set_xticklabels(publico_medio_ano.index, rotation=90)
+    ax1.set_xticks(publico_medio_ano.index.astype(int))
+    ax1.set_xticklabels(publico_medio_ano.index.astype(int), rotation=45)
+
+    ax1.set_title(f"ano")
+    ax1.set_xlabel("Time")
+    ax1.set_ylabel("Público médio")
+    st.pyplot(fig1)
