@@ -23,16 +23,35 @@ def toPandas():
 df_spark = load_data()
 
 df = toPandas()
+dfToFilter = df
 
+anos = ["Todos"] + sorted(df["ano_campeonato"].unique())
+ano = st.selectbox("Selecione o Ano",anos)
+
+if ano == "Todos":
+   dfToFilter = df
+else:
+    dfToFilter = dfToFilter[dfToFilter["ano_campeonato"]==ano]
 # Cálculo da média de gols
 media_gols = (
-    df.groupby("time_mandante")["gols_mandante"]
+    dfToFilter.groupby("time_mandante")["gols_mandante"]
     .mean()
     .sort_values()
 )
 # Caixa de seleção dos times
 times = ["Todos"] + sorted(df["time_mandante"].unique())
 time = st.selectbox("Selecione o time:", times)
+
+
+
+# Escolhendo o Ano
+
+
+
+
+
+
+
 
 # 1) Se NÃO escolher time
 if time == "Todos":
