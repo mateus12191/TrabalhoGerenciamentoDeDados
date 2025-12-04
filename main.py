@@ -46,14 +46,23 @@ if not df.empty:
 
 # --- 4. FILTRO DE ANO ---
 anos = ["Todos"] + sorted(df["ano_campeonato"].unique())
-ano = st.selectbox("Selecione o Ano", anos)
+ano = st.sidebar.selectbox("Selecione o Ano", anos)
 
 # Cria dataframe filtrado pelo ano (usado no gráfico geral)
 dfToFilter = df.copy()
 if ano != "Todos":
     dfToFilter = dfToFilter[dfToFilter["ano_campeonato"] == ano]
 
-# --- 5. SELEÇÃO DE TIME (VISUAL) ---
+opcao = st.sidebar.selectbox("Escolha o tipo de time:", ("Mandante", "Visitante"))
+# --- 6. Caixa de seleção dos times ---
+
+if opcao == "Mandante":
+    tipo = ("time_mandante", "gols_mandante")
+    
+else:
+    tipo = ("time_visitante", "gols_visitante")
+
+# --- 6. SELEÇÃO DE TIME (VISUAL) ---
 st.write("---")
 st.subheader("Selecione um time:")
 
@@ -93,30 +102,50 @@ if clicked_index > -1:
 
 # CENÁRIO 1: NENHUM TIME SELECIONADO (VISÃO GERAL)
 if time_selecionado == "Todos":
-    st.subheader("Média de gols por time mandante (Geral)")
-    
-    # Agrupa pelo time mandante
+    # media de gols de todos os times
+    st.subheader(f"Média de gols por time {opcao} (Geral)")
+
+    #Agrupa pelo time mandante ou visitante
     media_gols = (
-        dfToFilter.groupby("time_mandante")["gols_mandante"]
-        .mean()
-        .sort_values()
+    dfToFilter.groupby(tipo[0])[tipo[1]]
+    .mean()
+    .sort_values()
     )
 
     if not media_gols.empty:
         fig, ax = plt.subplots(figsize=(12, 6))
         ax.bar(media_gols.index, media_gols.values)
         ax.set_xticklabels(media_gols.index, rotation=90)
-        ax.set_title(f"Média de gols mandante - {ano}")
+        ax.set_title(f"Média de gols por time {opcao}")
         ax.set_xlabel("Time")
         ax.set_ylabel("Média de gols")
+
         st.pyplot(fig)
+
+    # Média de publico
+    if ano == "Todos":
+
+        publico_medio = (dfToFilter[dfToFilter["publico"] > 0]
+        .groupby(tipo[0])["publico"].
+        mean()
+        .sort_values())
+        
+        fig1, ax1 = plt.subplots(figsize=(12, 6))
+        st.subheader(f"Média de publico por time {opcao}")
+        ax1.bar(publico_medio.index, publico_medio.values)
+        ax1.set_xticklabels(publico_medio.index, rotation=90)
+        ax1.set_title(f"Público médio por time {opcao}")
+        ax1.set_xlabel("Time")
+        ax1.set_ylabel("Público médio")
+        
+        st.pyplot(fig1)
 
 # CENÁRIO 2: TIME ESPECÍFICO SELECIONADO
 else:
-    st.subheader(f"Estatísticas: {time_selecionado}")
+    st.subheader(f"Estatísticas: {time_selecionado} como {opcao}")
     
     # 1. Filtra apenas os jogos desse time como mandante
-    df_time = df[df["time_mandante"] == time_selecionado].copy()
+    df_time = df[df[tipo[0]] == time_selecionado].copy()
 
     # Se um ano específico foi escolhido lá em cima, filtramos também pelo ano
     if ano != "Todos":
@@ -124,6 +153,7 @@ else:
 
     if df_time.empty:
         st.warning(f"Sem dados para {time_selecionado} no filtro selecionado.")
+        
     else:
         # --- DEFINIÇÃO DINÂMICA DO EIXO X ---
         # Se selecionou "Todos" os anos -> Eixo X é o ANO
@@ -137,11 +167,11 @@ else:
 
         # --- GRÁFICO 1: MÉDIA DE GOLS ---
         media_gols_time = (
-            df_time.groupby(coluna_agrupamento)["gols_mandante"]
+            df_time.groupby(coluna_agrupamento)[tipo[1]]
             .mean()
             .sort_index()
         )
-
+        
         fig, ax = plt.subplots(figsize=(12, 5))
         # astype(int) garante que o ano/rodada não apareça como 2003.0
         ax.plot(media_gols_time.index.astype(int), media_gols_time.values, marker="o", color="blue")
@@ -158,11 +188,12 @@ else:
 
         if coluna_publico:
             media_publico = (
-                df_time.groupby(coluna_agrupamento)[coluna_publico]
+                df_time[df_time[coluna_agrupamento] > 0.0]
+                .groupby(coluna_agrupamento)[coluna_publico]
                 .mean()
                 .sort_index()
             )
-
+            print(media_publico)
             st.subheader(f"Média de Público por {label_x}")
             fig1, ax1 = plt.subplots(figsize=(12, 5))
             ax1.plot(media_publico.index.astype(int), media_publico.values, marker="o", color="green")
