@@ -158,15 +158,15 @@ if time_selecionado == "Todos":
         
         st.pyplot(fig1)
 
-    # Melhores tecnicos
+    # Melhores técnicos 
     melhores_tecnicos = df_desempenho_tecnicos.sort_values(by=["vitorias","gols_feitos"],ascending=[False,False])
-    st.subheader("Melhores tecnicos")
+    st.subheader("Melhores técnicos")
     top_10_melhores = melhores_tecnicos[:10]
     st.dataframe(top_10_melhores)
 
     #Piores tecnicos
     piores_tecnicos = df_desempenho_tecnicos.sort_values(by=["vitorias","derrotas","gols_sofridos"],ascending=[True,False,False])
-    st.subheader("Piores tecnicos")
+    st.subheader("Piores técnicos")
     top_10_piores = piores_tecnicos[:10]
     st.dataframe(top_10_piores)
 
@@ -248,7 +248,7 @@ else:
             st.dataframe(desempenho_time)
 
 
-        # -- TECNICOS COM PASSAGENS PELO TIME
+        # -- Técnicos com passagens pelo time
         tecnicos_time = df_desempenho_tecnico_time[df_desempenho_tecnico_time['time'] == time_selecionado]
         st.subheader(f"Tecnicos com passagem - {time_selecionado} e seu desempenho")
         st.dataframe(tecnicos_time)
