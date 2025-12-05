@@ -13,7 +13,7 @@ st.title("Análises do Brasileirão")
 # --- 1. CARGA DE DADOS ---
 @st.cache_resource
 def load_data():
-    # Mock para evitar erro se o arquivo não existir no meu ambiente de teste
+     #Mock para evitar erro se o arquivo não existir no meu ambiente de teste
     if not hasattr(load_data, "mock"): 
          return sp.read.option("header", True).option("inferSchema", True).csv("DatasetBrasileirao2003.csv")
     return None
@@ -22,13 +22,31 @@ def load_data():
 def toPandas(_df_spark):
     return _df_spark.toPandas()
 
+@st.cache_data
+def carregar_dados(arquivo):
+    df = pd.read_csv(arquivo)
+    return df
+
 df_spark = load_data()
 df = toPandas(df_spark)
+
+df_desempenho_tecnicos = carregar_dados("desempenho_tecnicos.csv")
+
+df_desempenho_tecnico_time = carregar_dados("desempenho_tecnico_time.csv")
+
+df_desempenho_times_ano = carregar_dados("desempenho_times_ano.csv")
 
 # --- 2. LIMPEZA DOS NOMES ---
 if not df.empty:
     # Unifica nomes (Ex: Santos FC -> Santos)
     df["time_mandante"] = df["time_mandante"].str.strip().replace(NOMES_UNIFICADOS)
+
+if not df_desempenho_tecnico_time.empty:
+    df_desempenho_tecnico_time["time"] = df_desempenho_tecnico_time["time"].str.strip().replace(NOMES_UNIFICADOS)
+
+if not df_desempenho_times_ano.empty:
+    df_desempenho_times_ano["time"] = df_desempenho_times_ano["time"].str.strip().replace(NOMES_UNIFICADOS)
+    
 
 # --- 3. IMAGENS (CACHEADA) ---
 @st.cache_data
@@ -140,6 +158,18 @@ if time_selecionado == "Todos":
         
         st.pyplot(fig1)
 
+    # Melhores tecnicos
+    melhores_tecnicos = df_desempenho_tecnicos.sort_values(by=["vitorias","gols_feitos"],ascending=[False,False])
+    st.subheader("Melhores tecnicos")
+    top_10_melhores = melhores_tecnicos[:10]
+    st.dataframe(top_10_melhores)
+
+    #Piores tecnicos
+    piores_tecnicos = df_desempenho_tecnicos.sort_values(by=["vitorias","derrotas","gols_sofridos"],ascending=[True,False,False])
+    st.subheader("Piores tecnicos")
+    top_10_piores = piores_tecnicos[:10]
+    st.dataframe(top_10_piores)
+
 # CENÁRIO 2: TIME ESPECÍFICO SELECIONADO
 else:
     st.subheader(f"Estatísticas: {time_selecionado} como {opcao}")
@@ -204,3 +234,21 @@ else:
             st.pyplot(fig1)
         else:
             st.info("Dados de público não disponíveis neste dataset.")
+
+
+        # -- TABELA DE VITORIAS,EMPATES E DERROTAS CONFORME O ANO --
+
+        if ano == "Todos":
+            desempenho_time = df_desempenho_times_ano[(df_desempenho_times_ano['time'] == time_selecionado)]
+            st.subheader(f"Desempenho - {time_selecionado} ao decorrer dos anos")
+            st.dataframe(desempenho_time)
+        else:
+            desempenho_time = df_desempenho_times_ano[(df_desempenho_times_ano['time'] == time_selecionado) & (df_desempenho_times_ano['ano_campeonato'] == ano.astype(int))]
+            st.subheader(f"Desempenho - {time_selecionado} no ano {ano}")
+            st.dataframe(desempenho_time)
+
+
+        # -- TECNICOS COM PASSAGENS PELO TIME
+        tecnicos_time = df_desempenho_tecnico_time[df_desempenho_tecnico_time['time'] == time_selecionado]
+        st.subheader(f"Tecnicos com passagem - {time_selecionado} e seu desempenho")
+        st.dataframe(tecnicos_time)

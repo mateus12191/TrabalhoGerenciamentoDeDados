@@ -1,0 +1,569 @@
+time,tecnico,vitorias_como_mandante,empates_como_mandante,derrotas_como_mandante,vitorias_como_visitantes,empates_como_visitantes,derrotas_como_visitantes
+Internacional,Dorival Júnior,10.0,5.0,2.0,3.0,6.0,5.0
+EC Bahia,Falcão,1.0,2.0,2.0,,2.0,3.0
+Sport Recife,Givanildo Oliveira,,,2.0,,1.0,
+Figueirense FC,Alexandre Gallo,5.0,2.0,1.0,1.0,4.0,2.0
+Criciúma EC,Luizinho Vieira,,1.0,,,1.0,1.0
+Grêmio,Vagner Mancini,5.0,1.0,1.0,1.0,1.0,5.0
+Flamengo,Rogério Ceni,10.0,1.0,4.0,5.0,2.0,4.0
+Athletico-PR,Lucho González,1.0,,1.0,,,3.0
+Internacional,Falcão,1.0,2.0,4.0,2.0,3.0,2.0
+Figueirense FC,Mário Sérgio,6.0,4.0,4.0,1.0,3.0,9.0
+Botafogo,Joel Santana,8.0,10.0,1.0,5.0,7.0,5.0
+Coritiba FC,Tcheco,1.0,,,1.0,1.0,
+Fluminense,Enderson Moreira,6.0,2.0,5.0,4.0,2.0,7.0
+Criciúma EC,Vadão,4.0,1.0,3.0,,1.0,6.0
+Fluminense,Marcelo Oliveira,5.0,4.0,3.0,2.0,2.0,8.0
+Sport Recife,Milton Mendes,4.0,1.0,1.0,1.0,2.0,3.0
+Atlético-GO,Doriva,1.0,1.0,3.0,,1.0,4.0
+EC Vitória,Alexandre Gallo,,1.0,3.0,2.0,,3.0
+Palmeiras,Caio Júnior,9.0,3.0,6.0,6.0,6.0,6.0
+Flamengo,Filipe Luís,1.0,,1.0,1.0,,
+EC Bahia,Caio Júnior,,4.0,1.0,2.0,,2.0
+Fluminense,Abel Braga,32.0,13.0,20.0,23.0,16.0,25.0
+Palmeiras,Antônio Carlos Zago,1.0,,,,1.0,
+Internacional,Eduardo Coudet,12.0,9.0,6.0,10.0,7.0,10.0
+Ipatinga FC,Enderson Moreira,1.0,,1.0,,1.0,2.0
+Juventude,Jair Ventura,6.0,3.0,3.0,2.0,4.0,8.0
+Avaí FC,Antônio Lopes,3.0,1.0,4.0,,4.0,3.0
+Juventude,Eduardo Baptista,1.0,2.0,3.0,1.0,2.0,1.0
+Flamengo,Mano Menezes,3.0,4.0,2.0,2.0,1.0,4.0
+Internacional,Diego Aguirre,12.0,6.0,6.0,4.0,10.0,10.0
+Sport Recife,Gustavo Florentín,4.0,3.0,3.0,2.0,1.0,6.0
+Sport Recife,Claudinei Oliveira,3.0,3.0,2.0,2.0,1.0,4.0
+Sport Recife,Geninho,8.0,3.0,3.0,3.0,3.0,9.0
+EC Bahia,Charles,2.0,,2.0,1.0,1.0,1.0
+Goiás EC,Enderson Moreira,9.0,8.0,6.0,6.0,6.0,12.0
+Internacional,Roger Machado,6.0,2.0,,3.0,4.0,2.0
+Goiás EC,Claudinei Oliveira,4.0,1.0,1.0,1.0,1.0,4.0
+Atlético-PR,Antônio Lopes,11.0,9.0,,5.0,4.0,15.0
+Avaí FC,Evando,,2.0,5.0,,1.0,6.0
+Palmeiras,Roger Machado,4.0,2.0,1.0,2.0,3.0,3.0
+Atlético-GO,Adilson Batista,,1.0,,,1.0,
+Paraná,Saulo Freitas,2.0,,2.0,,1.0,3.0
+Ipatinga FC,Giba,1.0,2.0,2.0,,2.0,3.0
+Fluminense,Dorival Júnior,2.0,1.0,,1.0,,1.0
+São Paulo,Diego Aguirre,8.0,6.0,1.0,6.0,7.0,4.0
+Figueirense FC,Renê Simões,1.0,1.0,2.0,,,2.0
+EC Bahia,Dado Cavalcanti,6.0,2.0,7.0,3.0,4.0,5.0
+Flamengo,Domènec Torrent,4.0,3.0,2.0,6.0,2.0,3.0
+Barueri,Fábio Giuntini,,1.0,3.0,1.0,,5.0
+RB Bragantino,Felipe Tigrão,1.0,1.0,1.0,,1.0,2.0
+Santos FC,Emerson Leão,1.0,,,,,2.0
+Cruzeiro,Cuca,10.0,5.0,3.0,7.0,4.0,5.0
+Fortaleza,Enderson Moreira,3.0,1.0,1.0,,,5.0
+Coritiba FC,Antônio Carlos Zago,,3.0,2.0,,1.0,4.0
+Botafogo,Zé Ricardo,6.0,3.0,1.0,2.0,3.0,5.0
+Portuguesa,Guto Ferreira,7.0,5.0,2.0,2.0,3.0,8.0
+Santos FC,Claudinei Oliveira,9.0,6.0,2.0,5.0,4.0,8.0
+Avaí FC,Gilson Kleina,6.0,4.0,6.0,3.0,3.0,11.0
+Flamengo,Andrade,8.0,2.0,1.0,6.0,3.0,4.0
+São Paulo,Luis Zubeldía,11.0,2.0,1.0,3.0,4.0,5.0
+EC Bahia,Diego Dabove,1.0,1.0,,,1.0,3.0
+Fluminense,Marcão,16.0,10.0,4.0,9.0,5.0,16.0
+Atlético-GO,Eduardo Souza,4.0,4.0,3.0,3.0,4.0,6.0
+Coritiba FC,Márcio Goiano,,,1.0,1.0,,2.0
+Vasco da Gama,Maurício Barbieri,,1.0,4.0,1.0,2.0,3.0
+Atlético-PR,Eduardo Baptista,2.0,1.0,1.0,2.0,2.0,2.0
+Figueirense FC,Fernando Gil,,1.0,1.0,,,1.0
+Corinthians,Raphael Laruccia,1.0,,,,,2.0
+Santos FC,Márcio Fernandes,6.0,4.0,1.0,1.0,4.0,4.0
+América-MG,Diogo Giacomini,1.0,1.0,1.0,,,2.0
+Vasco da Gama,Adilson Batista,2.0,1.0,,,1.0,2.0
+Avaí FC,Vágner Benazzi,4.0,2.0,,1.0,,4.0
+Chapecoense,Celso Rodrigues,5.0,3.0,1.0,2.0,1.0,5.0
+Flamengo,Marcelo Salles,1.0,,,1.0,1.0,
+Goiás EC,Paulo Bonamigo,7.0,3.0,2.0,,,6.0
+Botafogo,Cláudio Caçapa,2.0,,,1.0,,
+Corinthians,Ramón Díaz,4.0,4.0,,1.0,1.0,4.0
+Sport Recife,Eduardo Baptista,19.0,11.0,6.0,4.0,13.0,19.0
+CSA,Jacozinho,,,2.0,,,1.0
+EC Bahia,Mano Menezes,4.0,,4.0,2.0,1.0,7.0
+Botafogo,Bruno Lage,3.0,1.0,1.0,,3.0,2.0
+Fluminense,Carlos Alberto Parreira,2.0,2.0,2.0,,2.0,2.0
+São Paulo,Rogério Ceni,15.0,9.0,7.0,5.0,11.0,15.0
+Atlético-PR,Adilson Batista,,1.0,2.0,,,2.0
+Atlético-GO,Roberto Fernandes,1.0,,1.0,,,2.0
+Chapecoense,Jorginho,3.0,3.0,1.0,1.0,1.0,5.0
+Palmeiras,Vanderlei Luxemburgo,19.0,7.0,4.0,8.0,11.0,10.0
+Santos,Fábio Carille,5.0,1.0,2.0,2.0,5.0,3.0
+Cruzeiro,Marcelo Oliveira,29.0,5.0,5.0,18.0,10.0,12.0
+Palmeiras,Marcelo Oliveira,8.0,2.0,4.0,5.0,3.0,9.0
+Goiás,Jair Ventura,5.0,8.0,5.0,5.0,5.0,8.0
+Avaí FC,Eduardo Barroca,5.0,4.0,4.0,1.0,3.0,8.0
+Cuiabá-MT,Ivo Vieira,,1.0,2.0,1.0,,1.0
+CSA,Marcelo Cabo,1.0,2.0,2.0,,1.0,3.0
+Atlético-MG,Antonio Mohamed,5.0,3.0,1.0,3.0,5.0,1.0
+Coritiba FC,Eduardo Barroca,,,2.0,,,2.0
+São Paulo,Paulo César Carpegiani,4.0,,3.0,5.0,2.0,3.0
+Flamengo,Jorge Jesus,13.0,2.0,,10.0,2.0,2.0
+Atlético-GO,Eduardo Baptista,,,2.0,,,2.0
+Atlético-PR,Mário Sérgio,,,1.0,,,3.0
+Goiás,Émerson Ávila,2.0,1.0,2.0,,1.0,4.0
+Atlético-GO,Arthur Neto,1.0,,4.0,1.0,,4.0
+Corinthians,Osmar Loss,4.0,4.0,1.0,,,7.0
+Flamengo,Reinaldo Rueda,6.0,3.0,1.0,2.0,,6.0
+Joinville-SC,Hemerson Maria,,1.0,1.0,,,4.0
+Goiás EC,Augusto César,,1.0,,,,1.0
+Grêmio,Renato Gaúcho,72.0,25.0,29.0,39.0,41.0,41.0
+Corinthians,Vágner Mancini,6.0,3.0,3.0,4.0,3.0,4.0
+América-MG,Adilson Batista,2.0,6.0,2.0,2.0,2.0,5.0
+Cuiabá-MT,Petit,1.0,2.0,5.0,2.0,3.0,3.0
+Coritiba FC,Paulo César Carpegiani,6.0,3.0,1.0,1.0,3.0,5.0
+Botafogo,Emiliano Ramón Díaz,,,2.0,,,1.0
+Vasco da Gama,Alexandre Grasseli,,,1.0,,,1.0
+Flamengo,Vanderlei Luxemburgo,21.0,9.0,7.0,10.0,16.0,14.0
+EC Vitória,Dejan Petkovic,1.0,,3.0,,1.0,1.0
+Atlético-GO,Hélio dos Anjos,6.0,2.0,5.0,2.0,5.0,7.0
+Flamengo,Cuca,3.0,3.0,,1.0,1.0,3.0
+Chapecoense,Pintado,,4.0,3.0,1.0,2.0,4.0
+Palmeiras,Mano Menezes,7.0,2.0,2.0,4.0,3.0,2.0
+Juventude,Lucas Zanella,,2.0,1.0,,,2.0
+Santos FC,Jair Ventura,3.0,1.0,2.0,1.0,2.0,4.0
+Fluminense,Mano Menezes,5.0,2.0,1.0,4.0,1.0,5.0
+Atlético-MG,Dorival Júnior,7.0,2.0,4.0,4.0,4.0,6.0
+Atlético-MG,Rodrigo Santana,6.0,2.0,5.0,3.0,2.0,7.0
+Avaí FC,Fabrício Bento,1.0,,1.0,1.0,1.0,
+Náutico,Marcelo Martelotte,2.0,,6.0,,1.0,5.0
+Corinthians,Jair Ventura,3.0,3.0,1.0,,2.0,6.0
+Palmeiras,Muricy Ramalho,6.0,5.0,1.0,4.0,1.0,7.0
+Palmeiras,Alberto Valentim,6.0,1.0,,3.0,1.0,4.0
+Internacional,Tite,20.0,5.0,4.0,7.0,7.0,16.0
+Santos FC,Vanderlei Luxemburgo,16.0,7.0,6.0,9.0,5.0,15.0
+Botafogo,Ney Franco,9.0,5.0,7.0,7.0,8.0,8.0
+Palmeiras,Abel Ferreira,50.0,14.0,12.0,32.0,26.0,22.0
+Vasco da Gama,Álvaro Pacheco,,1.0,1.0,,,1.0
+Vasco da Gama,William Batista,1.0,,1.0,,,1.0
+EC Bahia,Preto Casagrande,3.0,1.0,1.0,,2.0,2.0
+EC Bahia,Guto Ferreira,7.0,4.0,2.0,1.0,2.0,10.0
+Internacional,Argel Fucks,12.0,2.0,1.0,4.0,3.0,10.0
+Atlético-GO,Renê Simões,5.0,5.0,3.0,3.0,3.0,7.0
+Botafogo,Mário Sérgio,,,2.0,,,1.0
+Botafogo,Luís Castro,12.0,3.0,9.0,13.0,4.0,8.0
+Ceará SC,Lucho González,1.0,2.0,2.0,,2.0,3.0
+Ponte Preta,Guto Ferreira,7.0,4.0,4.0,1.0,6.0,10.0
+Coritiba FC,Renê Simões,2.0,2.0,4.0,1.0,2.0,6.0
+Santos FC,Cuca,17.0,13.0,7.0,8.0,10.0,19.0
+Fluminense,Muricy Ramalho,12.0,5.0,2.0,7.0,5.0,5.0
+Santos FC,Enderson Moreira,6.0,,4.0,3.0,3.0,4.0
+Palmeiras,Dorival Júnior,4.0,3.0,3.0,2.0,2.0,6.0
+Cruzeiro,Mano Menezes,34.0,19.0,10.0,14.0,19.0,27.0
+América-MG,Enderson Moreira,8.0,3.0,6.0,,4.0,13.0
+Cruzeiro,Abel Braga,1.0,6.0,1.0,2.0,2.0,2.0
+Athletico-PR,Paulo Autuori,6.0,2.0,2.0,5.0,2.0,5.0
+Náutico,Levi Gomes,,1.0,1.0,,1.0,2.0
+América-MG,Sérgio Vieira,2.0,,3.0,,,4.0
+Vasco da Gama,Antônio Lopes,5.0,2.0,2.0,,2.0,7.0
+São Paulo,Muricy Ramalho,40.0,17.0,8.0,28.0,19.0,20.0
+Juventude,Umberto Louzer,1.0,4.0,2.0,,2.0,7.0
+Paraná,Lori Sandri,3.0,1.0,1.0,,,3.0
+Corinthians,Nelsinho Baptista,1.0,2.0,2.0,1.0,3.0,2.0
+Atlético-GO,Vagner Mancini,,1.0,2.0,,,3.0
+Ceará SC,Enderson Moreira,5.0,3.0,3.0,1.0,2.0,8.0
+Botafogo,Flávio Tenius,,1.0,,,,1.0
+Portuguesa,Geninho,7.0,8.0,4.0,3.0,7.0,9.0
+Náutico,Márcio Bittencourt,,,2.0,,,1.0
+Santos,Fernando Diniz,4.0,4.0,2.0,1.0,3.0,4.0
+Botafogo,Caio Júnior,10.0,4.0,1.0,5.0,3.0,9.0
+Santos FC,Marcelo Martelotte,3.0,4.0,2.0,2.0,2.0,4.0
+Goiás EC,Vadão,9.0,3.0,2.0,3.0,4.0,7.0
+América-MG,Vagner Mancini,16.0,8.0,14.0,6.0,13.0,16.0
+Flamengo,Abel Braga,3.0,,,,1.0,2.0
+Corinthians,Vítor Pereira,11.0,3.0,3.0,5.0,7.0,6.0
+Athletico-PR,Fábio Carille,1.0,,1.0,,,1.0
+Botafogo,Geninho,2.0,,1.0,,1.0,3.0
+Fluminense,Eduardo Baptista,3.0,1.0,2.0,,,5.0
+Avaí FC,Raul Cabral,2.0,,,,1.0,1.0
+Coritiba FC,Ney Franco,11.0,9.0,5.0,4.0,5.0,12.0
+Sport Recife,Umberto Louzer,1.0,3.0,4.0,2.0,3.0,4.0
+Ceará SC,Lisca,7.0,6.0,1.0,3.0,5.0,7.0
+Ceará SC,Vágner Mancini,6.0,3.0,2.0,1.0,2.0,7.0
+Internacional,Ricardo Colbachini,,1.0,1.0,1.0,,
+Goiás EC,Glauber Ramos,5.0,2.0,3.0,3.0,2.0,5.0
+Botafogo,Felipe Lucena,,,1.0,,,1.0
+Atlético-PR,Tiago Nunes,12.0,2.0,,2.0,4.0,6.0
+Grêmio,Vanderlei Luxemburgo,15.0,5.0,2.0,7.0,8.0,6.0
+Juventude,Marquinhos Santos,5.0,4.0,3.0,1.0,6.0,7.0
+Atlético-MG,Marcelo Oliveira,17.0,9.0,3.0,7.0,10.0,12.0
+Sport Recife,Vágner Mancini,2.0,3.0,4.0,1.0,2.0,4.0
+Corinthians,Mano Menezes,28.0,12.0,10.0,16.0,16.0,16.0
+Avaí FC,Toninho Cecílio,3.0,2.0,3.0,,1.0,6.0
+EC Vitória,Toninho Cecílio,1.0,3.0,,1.0,,2.0
+Fortaleza,Zé Ricardo,1.0,,3.0,,2.0,1.0
+Criciúma EC,Argel Fucks,3.0,2.0,1.0,3.0,1.0,4.0
+Cruzeiro,Vanderlei Luxemburgo,4.0,2.0,2.0,2.0,1.0,6.0
+Vasco da Gama,Doriva,,2.0,2.0,,1.0,3.0
+Santos FC,Vágner Mancini,2.0,1.0,1.0,1.0,2.0,2.0
+Atlético-PR,Leandro Niehues,1.0,1.0,,,,3.0
+Botafogo,Artur Jorge,10.0,2.0,2.0,9.0,4.0,2.0
+Atlético-MG,Luiz Felipe Scolari,9.0,1.0,4.0,5.0,5.0,4.0
+EC Vitória,Antônio Lopes,2.0,3.0,1.0,,3.0,1.0
+Ceará SC,Mário Sérgio,1.0,1.0,1.0,,,4.0
+EC Bahia,Rogério Ceni,13.0,3.0,6.0,6.0,5.0,11.0
+Atlético-MG,Thiago Larghi,10.0,3.0,2.0,3.0,4.0,7.0
+América-MG,Lisca,,,1.0,,,2.0
+São Paulo,Adilson Batista,3.0,5.0,2.0,3.0,4.0,2.0
+Corinthians,Coelho,3.0,3.0,1.0,1.0,2.0,5.0
+Santos,Odair Hellmann,2.0,3.0,1.0,1.0,1.0,3.0
+Coritiba FC,Gustavo Morínigo,7.0,4.0,5.0,1.0,3.0,10.0
+Ceará SC,Argel Fucks,,1.0,1.0,,1.0,
+América-MG,Mauro Fernandes,1.0,2.0,2.0,,1.0,2.0
+Náutico,Paulo César Gusmão,1.0,1.0,,,,3.0
+Santos FC,Marcelo Fernandes,2.0,2.0,1.0,,2.0,6.0
+Athletico-PR,Paulo Turra,4.0,,1.0,1.0,1.0,3.0
+Atlético-MG,Cuca,51.0,15.0,8.0,23.0,23.0,31.0
+América-MG,Givanildo Oliveira,8.0,5.0,4.0,1.0,4.0,11.0
+Fluminense,Renê Simões,2.0,1.0,1.0,3.0,2.0,1.0
+Goiás,Mário Henrique,1.0,,1.0,,,2.0
+Ceará SC,Dimas Filgueiras,4.0,5.0,3.0,2.0,5.0,5.0
+Goiás EC,Julinho Camargo,3.0,2.0,2.0,1.0,1.0,5.0
+Barueri,Antônio Carlos Zago,,1.0,2.0,1.0,1.0,1.0
+Ponte Preta,Eduardo Baptista,15.0,3.0,6.0,2.0,7.0,16.0
+Fluminense,Roger Machado,2.0,2.0,2.0,2.0,3.0,4.0
+Atlético-PR,Claudinei Oliveira,6.0,2.0,2.0,3.0,1.0,6.0
+Santos,Orlando Ribeiro,2.0,1.0,3.0,2.0,,4.0
+Sport Recife,Jair Ventura,7.0,2.0,7.0,4.0,3.0,9.0
+Goiás EC,Danny Sérgio,1.0,,3.0,1.0,1.0,1.0
+RB Bragantino,Maurício Barbieri,24.0,17.0,10.0,13.0,18.0,20.0
+Paraná,Gilson Kleina,1.0,2.0,,,,4.0
+CSA,Argel Fucks,5.0,3.0,4.0,2.0,2.0,10.0
+São Paulo,Ney Franco,13.0,2.0,3.0,5.0,6.0,7.0
+Fortaleza,Juan Pablo Vojvoda,38.0,21.0,12.0,23.0,12.0,34.0
+São Paulo,Cuca,4.0,6.0,1.0,5.0,2.0,3.0
+Flamengo,Caio Júnior,11.0,4.0,4.0,7.0,6.0,6.0
+Santos FC,Elano,3.0,1.0,1.0,2.0,,2.0
+Coritiba FC,Marcelo Oliveira,19.0,7.0,11.0,6.0,10.0,25.0
+Grêmio,Silas,2.0,2.0,2.0,,4.0,1.0
+Santos FC,Oswaldo de Oliveira,4.0,3.0,2.0,2.0,2.0,5.0
+Atlético-MG,Vágner Mancini,4.0,,2.0,,5.0,2.0
+Chapecoense,Vágner Mancini,3.0,,3.0,1.0,2.0,2.0
+Internacional,Celso Roth,12.0,5.0,2.0,6.0,5.0,13.0
+EC Vitória,Paulo César Carpegiani,9.0,3.0,4.0,2.0,4.0,9.0
+Chapecoense,Felipe Endres,,1.0,5.0,,,4.0
+Vasco da Gama,Rafael Paiva,6.0,3.0,1.0,3.0,3.0,5.0
+Santos,Marcelo Fernandes,3.0,2.0,3.0,4.0,2.0,3.0
+Atlético-PR,Fernando Diniz,2.0,,3.0,,3.0,4.0
+EC Vitória,Vágner Mancini,27.0,16.0,15.0,13.0,12.0,34.0
+Sport Recife,Péricles Chamusca,4.0,1.0,3.0,,4.0,7.0
+Fluminense,Cuca,6.0,6.0,1.0,4.0,5.0,3.0
+São Paulo,Hernán Crespo,3.0,7.0,2.0,3.0,4.0,5.0
+Fluminense,Fernando Diniz,28.0,11.0,9.0,12.0,9.0,25.0
+Internacional,Alexandre Gallo,4.0,1.0,2.0,1.0,2.0,4.0
+Figueirense FC,Hudson Coutinho,3.0,2.0,2.0,2.0,2.0,3.0
+Cruzeiro,Vágner Mancini,3.0,2.0,1.0,,2.0,3.0
+São Paulo,Emerson Leão,6.0,,,,1.0,6.0
+Barueri,Marcelo Rospide,,,2.0,,,3.0
+Atlético-GO,Umberto Louzer,3.0,3.0,2.0,,1.0,7.0
+Vasco da Gama,Ramón Díaz,8.0,1.0,4.0,2.0,5.0,7.0
+EC Vitória,Jorginho,1.0,2.0,1.0,1.0,2.0,3.0
+EC Vitória,João Burse,,3.0,1.0,,1.0,3.0
+Paraná,Pintado,1.0,1.0,,1.0,,
+Coritiba FC,Rodrigo Santana,,1.0,2.0,,1.0,2.0
+Santos,Paulo Turra,1.0,2.0,,,,3.0
+Vasco da Gama,Alberto Valentim,3.0,3.0,2.0,1.0,4.0,6.0
+Atlético-PR,Waldemar Lemos,2.0,2.0,1.0,1.0,,4.0
+América-MG,Antônio Lopes,,,1.0,,1.0,1.0
+Internacional,Enderson Moreira,1.0,1.0,,,,1.0
+Chapecoense,Ney Franco,1.0,2.0,3.0,1.0,,4.0
+Atlético-GO,Eduardo Barroca,2.0,6.0,2.0,4.0,2.0,3.0
+Atlético-GO,Anderson Gomes,,1.0,1.0,,1.0,1.0
+Atlético-PR,Miguel Ángel Portugal,2.0,2.0,1.0,1.0,2.0,1.0
+Athletico-PR,Eduardo Barros,4.0,4.0,1.0,2.0,3.0,3.0
+Cuiabá-MT,Toni Oliveira,11.0,11.0,8.0,8.0,5.0,16.0
+Flamengo,Maurício Barbieri,11.0,1.0,2.0,3.0,5.0,4.0
+Avaí FC,Alexandre Gallo,1.0,3.0,2.0,2.0,2.0,3.0
+Internacional,Jorge Fossati,,,1.0,1.0,,1.0
+EC Bahia,Gilson Kleina,3.0,3.0,2.0,1.0,3.0,7.0
+Flamengo,Jayme de Almeida,6.0,5.0,2.0,2.0,3.0,11.0
+Figueirense FC,Tuca Guimarães,1.0,2.0,,1.0,,4.0
+Náutico,Silas,,1.0,1.0,,,1.0
+Atlético-MG,Diogo Giacomini,1.0,,1.0,,,1.0
+Vasco da Gama,Ramon Menezes,3.0,2.0,1.0,2.0,1.0,3.0
+Sport Recife,Giba,1.0,1.0,,,,3.0
+Juventude,Cláudio,,1.0,1.0,,,2.0
+Botafogo,Vágner Mancini,8.0,5.0,6.0,1.0,2.0,16.0
+Avaí FC,Geninho,,3.0,1.0,,1.0,4.0
+Corinthians,Vanderlei Luxemburgo,4.0,6.0,1.0,2.0,3.0,5.0
+Flamengo,Tite,12.0,4.0,4.0,7.0,3.0,7.0
+Ipatinga FC,Ricardo Drubscky,3.0,1.0,2.0,,,5.0
+EC Bahia,Renê Simões,,6.0,2.0,2.0,2.0,5.0
+EC Vitória,Ricardo Silva,2.0,2.0,1.0,,3.0,4.0
+RB Bragantino,Pedro Caixinha,17.0,9.0,7.0,7.0,12.0,15.0
+EC Vitória,Léo Condé,,1.0,2.0,,,2.0
+Santa Cruz,Adriano Teixeira,2.0,1.0,,,,2.0
+Grêmio,Julinho Camargo,1.0,2.0,,,,2.0
+Corinthians,Toni Oliveira,1.0,4.0,1.0,,1.0,4.0
+América-MG,Fabián Bustos,2.0,1.0,6.0,,4.0,3.0
+Flamengo,Maurício Souza,2.0,,1.0,,1.0,1.0
+Grêmio,Celso Roth,21.0,6.0,3.0,10.0,7.0,15.0
+Barueri,Toninho Cecílio,3.0,2.0,1.0,,2.0,3.0
+Avaí FC,Lisca,1.0,,3.0,,,3.0
+Portuguesa,Edson Pimenta,1.0,2.0,1.0,,2.0,3.0
+Paraná,Claudinei Oliveira,,3.0,1.0,,,7.0
+Athletico-PR,Toni Oliveira,5.0,3.0,2.0,3.0,,7.0
+Criciúma EC,Gilmar,3.0,2.0,1.0,,2.0,5.0
+Figueirense FC,Guilherme Macuglia,1.0,1.0,,,,3.0
+Palmeiras,Oswaldo de Oliveira,,2.0,1.0,1.0,1.0,1.0
+Corinthians,Adilson Batista,4.0,2.0,2.0,2.0,2.0,4.0
+Internacional,Miguel Ángel Ramírez,,1.0,,,,1.0
+Chapecoense,Caio Júnior,4.0,2.0,4.0,3.0,5.0,4.0
+Cuiabá-MT,Pintado,,1.0,1.0,2.0,,2.0
+Juventude,Celso Roth,,1.0,1.0,,,2.0
+Vasco da Gama,Valdir,1.0,1.0,,1.0,2.0,
+Joinville-SC,Adilson Batista,1.0,1.0,3.0,1.0,1.0,2.0
+Atlético-GO,Jairo,4.0,2.0,4.0,1.0,5.0,4.0
+Figueirense FC,Guto Ferreira,,,4.0,2.0,1.0,2.0
+Goiás EC,Emerson Leão,,3.0,4.0,2.0,1.0,5.0
+Internacional,Mário Sérgio,4.0,1.0,1.0,2.0,2.0,
+Coritiba FC,Péricles Chamusca,3.0,,3.0,,1.0,3.0
+Botafogo,Oswaldo de Oliveira,20.0,10.0,8.0,12.0,11.0,15.0
+Santos FC,Muricy Ramalho,18.0,14.0,5.0,10.0,8.0,18.0
+Juventude,Roger Machado,4.0,3.0,,,2.0,4.0
+Flamengo,Joel Santana,12.0,3.0,2.0,4.0,4.0,8.0
+Santos FC,Jorge Sampaoli,14.0,4.0,1.0,8.0,4.0,7.0
+Atlético-GO,Marcelo Cabo,6.0,7.0,3.0,5.0,3.0,5.0
+Ponte Preta,Doriva,4.0,2.0,1.0,2.0,2.0,1.0
+São Paulo,Thiago Carpini,,,1.0,,,1.0
+Palmeiras,Ricardo Gareca,2.0,1.0,4.0,,,5.0
+Ponte Preta,Felipe Moreira,2.0,,2.0,1.0,1.0,3.0
+Botafogo,Estevam Soares,4.0,4.0,3.0,2.0,3.0,4.0
+Sport Recife,Daniel Paulista,7.0,,5.0,2.0,3.0,5.0
+Botafogo,Bruno Lazaroni,2.0,3.0,,1.0,,2.0
+EC Bahia,Cristóvão Borges,7.0,6.0,5.0,5.0,5.0,9.0
+Cruzeiro,Joel Santana,5.0,,2.0,2.0,,2.0
+Portuguesa,Vágner Benazzi,7.0,6.0,3.0,1.0,3.0,14.0
+Atlético-PR,Ricardo Drubscky,,2.0,,1.0,,2.0
+Fluminense,Ricardo Drubscky,1.0,,,,,1.0
+Figueirense FC,Argel Fucks,13.0,13.0,6.0,5.0,7.0,17.0
+Ceará SC,Adilson Batista,3.0,2.0,1.0,1.0,,6.0
+Atlético-PR,Vágner Mancini,12.0,2.0,1.0,4.0,5.0,7.0
+Coritiba FC,Marquinhos Santos,20.0,8.0,5.0,4.0,9.0,19.0
+Flamengo,Renato Portaluppi,8.0,,2.0,7.0,6.0,1.0
+Cruzeiro,Émerson Ávila,,1.0,2.0,,1.0,3.0
+Atlético-GO,Paulo César Gusmão,2.0,,3.0,1.0,3.0,1.0
+Ceará SC,Guto Ferreira,11.0,8.0,8.0,7.0,10.0,10.0
+Grêmio,Mano Menezes,11.0,3.0,3.0,4.0,3.0,11.0
+Juventude,Flávio Campos,2.0,1.0,,,,1.0
+Flamengo,Zé Ricardo,15.0,7.0,4.0,9.0,9.0,6.0
+Botafogo,Jair Ventura,15.0,5.0,9.0,11.0,9.0,9.0
+Palmeiras,Cuca,21.0,6.0,5.0,14.0,7.0,7.0
+Palmeiras,Luiz Felipe Scolari,32.0,16.0,12.0,14.0,30.0,22.0
+Sport Recife,Nelsinho Baptista,11.0,8.0,3.0,3.0,4.0,14.0
+Goiás EC,Arthur Neto,,1.0,2.0,,1.0,4.0
+EC Bahia,Claudio Prates,1.0,1.0,1.0,,1.0,1.0
+Grêmio,Renato Portaluppi,14.0,2.0,3.0,7.0,3.0,9.0
+Náutico,Alexandre Gallo,13.0,3.0,3.0,1.0,4.0,14.0
+Flamengo,Dorival Júnior,14.0,9.0,6.0,12.0,9.0,12.0
+São Paulo,Milton Cruz,3.0,,1.0,3.0,1.0,2.0
+Botafogo,Cuca,5.0,5.0,2.0,2.0,8.0,4.0
+São Paulo,Paulo Autuori,1.0,1.0,4.0,1.0,3.0,3.0
+Atlético-MG,Levir Culpi,26.0,7.0,7.0,14.0,10.0,17.0
+Athletico-PR,Tiago Nunes,9.0,2.0,4.0,4.0,5.0,6.0
+Chapecoense,Gilson Kleina,5.0,6.0,,1.0,7.0,5.0
+Ceará SC,Tiago Nunes,4.0,4.0,1.0,1.0,4.0,5.0
+Vasco da Gama,Valdir Espinosa,1.0,1.0,2.0,2.0,1.0,
+Atlético-PR,Doriva,2.0,1.0,1.0,1.0,1.0,3.0
+Santos,Fabián Bustos,3.0,3.0,2.0,,3.0,2.0
+Atlético-PR,Sérgio Soares,3.0,2.0,,1.0,1.0,3.0
+Fluminense,Cristóvão Borges,11.0,6.0,2.0,6.0,4.0,9.0
+Chapecoense,Emerson Cris,3.0,1.0,3.0,2.0,3.0,3.0
+Palmeiras,Gilson Kleina,2.0,1.0,4.0,3.0,1.0,5.0
+Sport Recife,Emerson Leão,3.0,1.0,2.0,,1.0,3.0
+Palmeiras,Andrey Lopes,2.0,,,2.0,,1.0
+Ceará SC,Marquinhos Santos,2.0,2.0,2.0,,3.0,2.0
+Santos,Lisca,1.0,1.0,1.0,1.0,2.0,2.0
+Vasco da Gama,Dorival Júnior,3.0,3.0,6.0,3.0,5.0,4.0
+Náutico,Jorginho,,,4.0,,,1.0
+Ceará SC,Paulo César Gusmão,4.0,,,1.0,2.0,
+Criciúma EC,Caio Júnior,,,1.0,,,1.0
+Vasco da Gama,Vanderlei Luxemburgo,10.0,6.0,7.0,5.0,10.0,8.0
+Flamengo,Cristóvão Borges,3.0,1.0,4.0,4.0,,4.0
+Athletico-PR,Alberto Valentim,1.0,2.0,4.0,2.0,3.0,4.0
+Criciúma EC,Toninho Cecílio,,,3.0,,,1.0
+Santa Cruz,Doriva,1.0,1.0,4.0,,1.0,6.0
+Corinthians,Tiago Nunes,1.0,2.0,1.0,1.0,1.0,2.0
+Barueri,Estevam Soares,6.0,2.0,,1.0,5.0,3.0
+Corinthians,Fábio Carille,21.0,13.0,3.0,14.0,12.0,14.0
+São Paulo,Vizolli,1.0,2.0,,1.0,,1.0
+Botafogo,Marcos Paquetá,1.0,,1.0,,,3.0
+São Paulo,Sérgio Baresi,3.0,2.0,1.0,2.0,2.0,3.0
+Athletico-PR,Luiz Felipe Scolari,8.0,6.0,1.0,5.0,4.0,8.0
+Avaí FC,Alberto Valentim,1.0,4.0,3.0,2.0,,5.0
+EC Bahia,Paulo César Carpegiani,4.0,1.0,1.0,1.0,3.0,2.0
+Grêmio,Paulo Autuori,12.0,3.0,,1.0,4.0,10.0
+Coritiba FC,Guto Ferreira,5.0,3.0,1.0,1.0,,9.0
+Cruzeiro,Adilson Batista,24.0,7.0,9.0,16.0,8.0,19.0
+Corinthians,Cristóvão Borges,3.0,3.0,1.0,3.0,1.0,5.0
+EC Vitória,Caio Júnior,5.0,3.0,1.0,1.0,1.0,6.0
+Atlético-MG,Rogério Micale,1.0,1.0,3.0,2.0,1.0,2.0
+Atlético-PR,Cristóvão Borges,2.0,2.0,1.0,1.0,2.0,1.0
+Atlético-PR,Paulo César Carpegiani,6.0,3.0,1.0,4.0,2.0,5.0
+Atlético-GO,Jair Ventura,,1.0,3.0,2.0,1.0,2.0
+Figueirense FC,Marquinhos Santos,2.0,1.0,2.0,,1.0,3.0
+Joinville-SC,Paulo César Gusmão,5.0,5.0,1.0,,2.0,9.0
+Atlético-MG,Celso Roth,8.0,5.0,5.0,6.0,3.0,9.0
+EC Vitória,Thiago Carpini,5.0,1.0,5.0,3.0,3.0,6.0
+Figueirense FC,Paulo César Gusmão,3.0,2.0,5.0,3.0,4.0,4.0
+Athletico-PR,Cuca,4.0,1.0,,1.0,1.0,2.0
+São Paulo,Pintado,1.0,,,1.0,,1.0
+Ceará SC,Dorival Júnior,,2.0,2.0,3.0,2.0,1.0
+Ceará SC,Juca,1.0,1.0,1.0,,1.0,2.0
+Chapecoense,Vinícius Eutrópio,8.0,5.0,6.0,3.0,3.0,12.0
+Grêmio,Luiz Felipe Scolari,12.0,5.0,4.0,5.0,4.0,10.0
+América-MG,Cauan Almeida,,1.0,,,,1.0
+Internacional,Cauan Almeida,1.0,,,1.0,,
+Cruzeiro,Zé Ricardo,1.0,1.0,2.0,2.0,1.0,3.0
+Internacional,Dunga,4.0,4.0,4.0,3.0,6.0,3.0
+Grêmio,Tiago Nunes,,2.0,2.0,,,3.0
+Corinthians,Zé Augusto,1.0,,1.0,,,3.0
+Sport Recife,Ney Franco,,1.0,,,,1.0
+Atlético-GO,Vágner Mancini,2.0,3.0,2.0,2.0,3.0,3.0
+Vasco da Gama,Tita,1.0,1.0,2.0,1.0,,2.0
+Avaí FC,Claudinei Oliveira,5.0,9.0,5.0,5.0,3.0,10.0
+Chapecoense,Marquinhos Santos,2.0,2.0,5.0,2.0,4.0,4.0
+Fluminense,Renato Gaúcho,11.0,11.0,7.0,7.0,5.0,16.0
+EC Bahia,Joel Santana,5.0,1.0,3.0,2.0,3.0,3.0
+Athletico-PR,Martín Varini,,1.0,3.0,1.0,2.0,2.0
+Vasco da Gama,Marcos Valadares,,1.0,1.0,,,2.0
+Criciúma EC,Wagner Lopes,4.0,2.0,2.0,,3.0,4.0
+Botafogo,Paulo Autuori,1.0,1.0,3.0,,6.0,
+Goiás EC,Thiago Larghi,1.0,,1.0,,1.0,1.0
+EC Bahia,Renato Paiva,4.0,4.0,3.0,1.0,3.0,6.0
+Internacional,Clemer,3.0,2.0,1.0,,2.0,4.0
+Náutico,Waldemar Lemos,1.0,1.0,,1.0,1.0,1.0
+Avaí FC,Péricles Chamusca,2.0,1.0,1.0,,1.0,2.0
+Goiás EC,Márcio Araújo,1.0,2.0,1.0,1.0,,5.0
+Vasco da Gama,Milton Mendes,5.0,2.0,4.0,2.0,2.0,6.0
+Chapecoense,Jair Ventura,,1.0,4.0,,3.0,4.0
+Botafogo,Lúcio Flávio,1.0,1.0,4.0,2.0,1.0,3.0
+Vasco da Gama,Renato Gaúcho,1.0,1.0,4.0,3.0,1.0,3.0
+EC Bahia,Jorginho,4.0,3.0,2.0,4.0,3.0,3.0
+Vasco da Gama,Ricardo Sá Pinto,1.0,2.0,3.0,1.0,2.0,2.0
+Ipatinga FC,Márcio Bittencourt,4.0,,2.0,,2.0,4.0
+Náutico,Leandro Machado,3.0,2.0,3.0,,1.0,6.0
+Cruzeiro,Celso Roth,9.0,5.0,5.0,6.0,2.0,11.0
+Figueirense FC,Vinícius Eutrópio,3.0,4.0,1.0,,,6.0
+São Paulo,Juan Carlos Osorio,7.0,5.0,1.0,4.0,1.0,7.0
+EC Vitória,Argel Fucks,2.0,,4.0,3.0,1.0,3.0
+Internacional,Osmar Loss,,,2.0,1.0,1.0,
+Figueirense FC,Márcio Goiano,3.0,2.0,2.0,1.0,1.0,6.0
+São Paulo,Fernando Diniz,15.0,5.0,4.0,9.0,8.0,8.0
+Sport Recife,Sérgio Guedes,2.0,1.0,2.0,2.0,1.0,2.0
+Atlético-PR,Roberto Fernandes,3.0,4.0,1.0,,,7.0
+Ponte Preta,Paulo César Carpegiani,2.0,2.0,2.0,1.0,1.0,2.0
+Atlético-MG,Emerson Leão,5.0,3.0,4.0,2.0,3.0,4.0
+Fluminense,Vanderlei Luxemburgo,3.0,4.0,3.0,3.0,4.0,6.0
+Náutico,Roberto Fernandes,12.0,4.0,5.0,5.0,8.0,10.0
+Goiás EC,Ricardo Drubscky,10.0,4.0,5.0,3.0,4.0,12.0
+Goiás,Armando Evangelista,2.0,6.0,4.0,4.0,3.0,5.0
+Corinthians,Tite,53.0,20.0,9.0,25.0,29.0,27.0
+Fluminense,Vinícius Eutrópio,,,1.0,,,1.0
+Internacional,Odair Hellmann,23.0,7.0,1.0,7.0,10.0,15.0
+Flamengo,Mário Jorge,4.0,1.0,,1.0,1.0,
+Atlético-PR,Tico dos Santos,2.0,,,,,1.0
+Atlético-PR,Fabiano Soares,6.0,4.0,4.0,4.0,2.0,6.0
+Ponte Preta,Gilson Kleina,11.0,7.0,6.0,4.0,9.0,11.0
+Corinthians,Sylvinho,9.0,5.0,4.0,4.0,7.0,7.0
+São Paulo,Edgardo Bauza,4.0,2.0,3.0,,3.0,4.0
+São Paulo,Doriva,1.0,,,1.0,,2.0
+Barueri,Diego Cerri,2.0,3.0,1.0,1.0,1.0,5.0
+Atlético-MG,Vanderlei Luxemburgo,5.0,,6.0,,3.0,8.0
+Internacional,Abel Braga,27.0,3.0,8.0,11.0,14.0,15.0
+Sport Recife,Falcão,7.0,1.0,,3.0,1.0,6.0
+Coritiba FC,Thiago Kosloski,4.0,,7.0,4.0,1.0,7.0
+Sport Recife,Waldemar Lemos,3.0,2.0,,,2.0,5.0
+Avaí FC,Silas,10.0,6.0,3.0,5.0,6.0,9.0
+Santo André,Alexandre Gallo,1.0,,2.0,1.0,,3.0
+Flamengo,Silas,,2.0,1.0,1.0,2.0,2.0
+Cruzeiro,Fernando Seabra,8.0,3.0,2.0,3.0,4.0,6.0
+Atlético-MG,Alexandre Gallo,4.0,2.0,,,2.0,6.0
+Santo André,Sérgio Soares,5.0,,2.0,,1.0,7.0
+Internacional,Fernandão,6.0,3.0,4.0,3.0,5.0,5.0
+Corinthians,Paulo César Carpegiani,2.0,1.0,2.0,,1.0,2.0
+Cruzeiro,Rogério Ceni,2.0,,2.0,,2.0,1.0
+Grêmio,Marcelo Rospide,2.0,1.0,,,1.0,2.0
+Cruzeiro,Dorival Júnior,10.0,2.0,2.0,5.0,4.0,8.0
+Sport Recife,Oswaldo de Oliveira,5.0,3.0,3.0,,1.0,8.0
+Cruzeiro,Pepa,3.0,3.0,5.0,3.0,4.0,3.0
+Atlético-MG,Roger Machado,2.0,2.0,3.0,3.0,3.0,1.0
+Chapecoense,Claudinei Oliveira,3.0,,1.0,1.0,1.0,3.0
+Coritiba FC,Celso Roth,2.0,3.0,3.0,1.0,3.0,5.0
+Fluminense,Levir Culpi,6.0,4.0,4.0,5.0,5.0,7.0
+Coritiba FC,Pachequinho,7.0,5.0,4.0,4.0,3.0,8.0
+Coritiba FC,Dorival Júnior,10.0,6.0,3.0,4.0,5.0,10.0
+Atlético-MG,Eduardo Coudet,2.0,2.0,1.0,3.0,1.0,1.0
+Vasco da Gama,Zé Ricardo,6.0,5.0,2.0,4.0,4.0,3.0
+Cruzeiro,Paulo Autuori,,3.0,,2.0,1.0,
+Sport Recife,Vanderlei Luxemburgo,4.0,6.0,3.0,3.0,1.0,9.0
+Flamengo,Ney Franco,,4.0,3.0,,3.0,3.0
+Internacional,Lisca,1.0,1.0,,,1.0,1.0
+Botafogo,Alberto Valentim,6.0,4.0,3.0,2.0,2.0,8.0
+Botafogo,Tiago Nunes,,2.0,,,2.0,1.0
+Atlético-GO,João Paulo Sanches,3.0,4.0,5.0,5.0,3.0,4.0
+Flamengo,Oswaldo de Oliveira,5.0,1.0,2.0,3.0,1.0,4.0
+América-MG,Marquinhos Santos,4.0,1.0,,2.0,2.0,3.0
+Santos FC,Dorival Júnior,33.0,4.0,5.0,10.0,12.0,20.0
+São Paulo,André Jardine,2.0,2.0,1.0,1.0,,2.0
+Botafogo,Eduardo Barroca,5.0,1.0,9.0,4.0,3.0,11.0
+Fluminense,Oswaldo de Oliveira,1.0,1.0,1.0,1.0,,2.0
+EC Bahia,Marquinhos Santos,1.0,1.0,5.0,1.0,2.0,2.0
+Flamengo,Paulo Sousa,2.0,1.0,2.0,1.0,2.0,2.0
+Atlético-MG,Gabriel Milito,6.0,5.0,4.0,4.0,5.0,4.0
+Corinthians,Oswaldo de Oliveira,2.0,2.0,,,2.0,1.0
+Goiás EC,Ney Franco,7.0,2.0,5.0,3.0,4.0,7.0
+Fortaleza,Marcelo Chamusca,,3.0,2.0,1.0,,2.0
+Flamengo,Jorge Sampaoli,4.0,4.0,2.0,6.0,3.0,4.0
+Figueirense FC,Hélio dos Anjos,,,3.0,1.0,,3.0
+Atlético-PR,Milton Mendes,7.0,4.0,3.0,4.0,1.0,8.0
+Grêmio,Roger Machado,20.0,5.0,3.0,8.0,8.0,14.0
+Ceará SC,Marcelo Chamusca,,2.0,1.0,,1.0,2.0
+Vasco da Gama,Celso Roth,12.0,3.0,7.0,2.0,6.0,13.0
+Atlético-PR,Ney Franco,7.0,2.0,,2.0,3.0,4.0
+Grêmio,Enderson Moreira,3.0,2.0,1.0,2.0,2.0,2.0
+Náutico,Zé Teodoro,1.0,1.0,1.0,,,4.0
+Paraná,Rogério Micale,3.0,4.0,3.0,,1.0,7.0
+Vasco da Gama,Cristóvão Borges,12.0,6.0,3.0,7.0,6.0,6.0
+Vasco da Gama,Gaúcho,1.0,3.0,,2.0,,1.0
+Athletico-PR,Juca,,,2.0,2.0,,1.0
+Internacional,Zé Ricardo,2.0,2.0,1.0,2.0,1.0,3.0
+Atlético-MG,Jorge Sampaoli,14.0,4.0,1.0,5.0,4.0,9.0
+Athletico-PR,Dorival Júnior,1.0,,2.0,1.0,,2.0
+Corinthians,Alessandro,1.0,,1.0,,,1.0
+Athletico-PR,Wesley Carvalho,6.0,8.0,,3.0,5.0,5.0
+Paraná,Dado Cavalcanti,,3.0,2.0,1.0,,3.0
+Náutico,Geninho,7.0,3.0,4.0,1.0,3.0,9.0
+Cruzeiro,Fernando Diniz,,1.0,,,,2.0
+Cuiabá-MT,Bernardo Franco,2.0,2.0,,,1.0,3.0
+Santos,Diego Aguirre,1.0,,1.0,,,3.0
+Vasco da Gama,Paulo César Gusmão,7.0,8.0,,1.0,6.0,7.0
+Atlético-MG,Oswaldo de Oliveira,4.0,1.0,1.0,2.0,4.0,1.0
+Guarani,Vágner Mancini,7.0,8.0,3.0,1.0,4.0,12.0
+Flamengo,Rogério Lourenço,3.0,4.0,1.0,1.0,1.0,4.0
+Criciúma EC,Cláudio Tencati,4.0,8.0,3.0,3.0,2.0,9.0
+Cuiabá-MT,Luiz Fernando Iubel,,1.0,4.0,1.0,3.0,4.0
+Atlético-MG,Zetti,1.0,1.0,1.0,1.0,1.0,3.0
+Coritiba FC,Gilson Kleina,1.0,1.0,1.0,,,2.0
+RB Bragantino,Marcinho,,,2.0,,1.0,
+Barueri,Goiano,2.0,2.0,,,,2.0
+Internacional,Mano Menezes,16.0,6.0,2.0,8.0,10.0,7.0
+Santos FC,Levir Culpi,7.0,3.0,1.0,3.0,8.0,2.0
+Juventude,Beto Almeida,3.0,4.0,2.0,2.0,,10.0
+Santa Cruz,Milton Mendes,3.0,,6.0,1.0,3.0,4.0
+Atlético-PR,Geninho,5.0,1.0,4.0,1.0,4.0,4.0
+Goiás EC,Hélio dos Anjos,10.0,8.0,7.0,7.0,8.0,12.0
+Santo André,Sérgio Guedes,2.0,3.0,2.0,2.0,2.0,2.0
+Ceará SC,Estevam Soares,1.0,3.0,1.0,,2.0,5.0
+EC Bahia,Roger Machado,9.0,9.0,5.0,5.0,6.0,10.0
+Criciúma EC,Sílvio Criciúma,1.0,,3.0,2.0,1.0,1.0
+Chapecoense,Gilmar,,1.0,2.0,,1.0,3.0
+Vasco da Gama,Paulo Autuori,2.0,1.0,,,,3.0
+EC Bahia,Enderson Moreira,7.0,4.0,1.0,2.0,5.0,7.0
+Fluminense,Odair Hellmann,6.0,4.0,2.0,4.0,2.0,5.0
+Vasco da Gama,Marcelo Oliveira,1.0,,3.0,1.0,2.0,3.0
+Atlético-PR,Renato Gaúcho,3.0,3.0,1.0,,2.0,2.0
+EC Vitória,Ney Franco,11.0,6.0,6.0,6.0,5.0,12.0
+Atlético-PR,Paulo Autuori,14.0,3.0,2.0,1.0,3.0,14.0
+Atlético-GO,Geninho,1.0,1.0,2.0,,,3.0
+Chapecoense,Guto Ferreira,7.0,6.0,5.0,4.0,5.0,9.0
+Fortaleza,Rogério Ceni,15.0,4.0,5.0,4.0,8.0,12.0
+São Paulo,Dorival Júnior,18.0,10.0,4.0,5.0,10.0,15.0
