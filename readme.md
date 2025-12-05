@@ -2,7 +2,7 @@
 
 - **Mateus de Mello Freire**  
 - **Charles Pimentel da Silva** 
-- **Thiago**  
+- **Thiago Franco Barbosa**  
 
 # ⚽ Brasileirão Analytics – Dashboard Interativo
 
