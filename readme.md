@@ -1,3 +1,9 @@
+## 👥 Integrantes do Projeto
+
+- **Mateus de Mello Freire**  
+- **Charles Pimentel da Silva** 
+- **Thiago**  
+
 # ⚽ Brasileirão Analytics – Dashboard Interativo
 
 ## 🎯 Problema e Motivação  
