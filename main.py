@@ -17,6 +17,7 @@ st.title("⚽ Análises do Brasileirão")
 # --- 1. CARGA DE DADOS ---
 @st.cache_resource
 def load_data():
+     #Mock para evitar erro se o arquivo não existir no meu ambiente de teste
     if not hasattr(load_data, "mock"): 
          return sp.read.option("header", True).option("inferSchema", True).csv("DatasetBrasileirao2003.csv")
     return None
@@ -27,13 +28,31 @@ def toPandas(_df_spark):
         return _df_spark.toPandas()
     return pd.DataFrame() 
 
+@st.cache_data
+def carregar_dados(arquivo):
+    df = pd.read_csv(arquivo)
+    return df
+
 df_spark = load_data()
 df = toPandas(df_spark)
+
+df_desempenho_tecnicos = carregar_dados("desempenho_tecnicos.csv")
+
+df_desempenho_tecnico_time = carregar_dados("desempenho_tecnico_time.csv")
+
+df_desempenho_times_ano = carregar_dados("desempenho_times_ano.csv")
 
 # --- 2. LIMPEZA DOS NOMES ---
 if not df.empty:
     df["time_mandante"] = df["time_mandante"].str.strip().replace(NOMES_UNIFICADOS)
     df["time_visitante"] = df["time_visitante"].str.strip().replace(NOMES_UNIFICADOS)
+
+if not df_desempenho_tecnico_time.empty:
+    df_desempenho_tecnico_time["time"] = df_desempenho_tecnico_time["time"].str.strip().replace(NOMES_UNIFICADOS)
+
+if not df_desempenho_times_ano.empty:
+    df_desempenho_times_ano["time"] = df_desempenho_times_ano["time"].str.strip().replace(NOMES_UNIFICADOS)
+    
 
 # --- 3. IMAGENS (CACHEADA) ---
 @st.cache_data
@@ -266,6 +285,24 @@ with tab_times:
             else:
                 st.info("Selecione um ano específico para ver a evolução rodada a rodada.")
 
+    # Melhores técnicos 
+    melhores_tecnicos = df_desempenho_tecnicos.sort_values(by=["vitorias","gols_feitos"],ascending=[False,False])
+    st.subheader("Melhores técnicos")
+    top_10_melhores = melhores_tecnicos[:10]
+    st.dataframe(top_10_melhores)
+
+    #Piores técnicos
+    piores_tecnicos = df_desempenho_tecnicos.sort_values(by=["vitorias","derrotas","gols_sofridos"],ascending=[True,False,False])
+    st.subheader("Piores técnicos")
+    top_10_piores = piores_tecnicos[:10]
+    st.dataframe(top_10_piores)
+
+# CENÁRIO 2: TIME ESPECÍFICO SELECIONADO
+else:
+    st.subheader(f"Estatísticas: {time_selecionado} como {opcao}")
+    
+    # 1. Filtra apenas os jogos desse time como mandante
+    df_time = df[df[tipo[0]] == time_selecionado].copy()
             # --- GRÁFICO 3: PORCENTAGEM DE VITORIAS, DERROTAS, EMPATES ---
         
             # Cálculo básico dos resultados
@@ -305,6 +342,63 @@ with tab_times:
     else:
         st.info("👆 Clique em um escudo acima para ver as estatísticas.")
 
+        # --- GRÁFICO 1: MÉDIA DE GOLS ---
+        media_gols_time = (
+            df_time.groupby(coluna_agrupamento)[tipo[1]]
+            .mean()
+            .sort_index()
+        )
+        
+        fig, ax = plt.subplots(figsize=(12, 5))
+        # astype(int) garante que o ano/rodada não apareça como 2003.0
+        ax.plot(media_gols_time.index.astype(int), media_gols_time.values, marker="o", color="blue")
+        ax.set_title(f"Média de Gols - {time_selecionado}")
+        ax.set_xlabel(label_x)
+        ax.set_ylabel("Média de Gols")
+        ax.set_xticks(media_gols_time.index.astype(int)) # Força ticks inteiros
+        st.pyplot(fig)
+
+        # --- GRÁFICO 2: MÉDIA DE PÚBLICO ---
+        # Verifica se existe coluna de publico antes de tentar plotar
+        colunas_possiveis = ["publico", "publico_pagante"]
+        coluna_publico = next((c for c in colunas_possiveis if c in df_time.columns), None)
+
+        if coluna_publico:
+            media_publico = (
+                df_time[df_time[coluna_agrupamento] > 0.0]
+                .groupby(coluna_agrupamento)[coluna_publico]
+                .mean()
+                .sort_index()
+            )
+            print(media_publico)
+            st.subheader(f"Média de Público por {label_x}")
+            fig1, ax1 = plt.subplots(figsize=(12, 5))
+            ax1.plot(media_publico.index.astype(int), media_publico.values, marker="o", color="green")
+            ax1.set_title(f"Público - {time_selecionado}")
+            ax1.set_xlabel(label_x)
+            ax1.set_ylabel("Público Médio")
+            ax1.set_xticks(media_publico.index.astype(int)) # Força ticks inteiros
+            st.pyplot(fig1)
+        else:
+            st.info("Dados de público não disponíveis neste dataset.")
+
+
+        # -- TABELA DE VITORIAS,EMPATES E DERROTAS CONFORME O ANO --
+
+        if ano == "Todos":
+            desempenho_time = df_desempenho_times_ano[(df_desempenho_times_ano['time'] == time_selecionado)]
+            st.subheader(f"Desempenho - {time_selecionado} ao decorrer dos anos")
+            st.dataframe(desempenho_time)
+        else:
+            desempenho_time = df_desempenho_times_ano[(df_desempenho_times_ano['time'] == time_selecionado) & (df_desempenho_times_ano['ano_campeonato'] == ano.astype(int))]
+            st.subheader(f"Desempenho - {time_selecionado} no ano {ano}")
+            st.dataframe(desempenho_time)
+
+
+        # -- Técnicos com passagens pelo time
+        tecnicos_time = df_desempenho_tecnico_time[df_desempenho_tecnico_time['time'] == time_selecionado]
+        st.subheader(f"Técnicos com passagem - {time_selecionado} e seu desempenho")
+        st.dataframe(tecnicos_time)
 # ---------------------------------------------------------
 # ABA 3: SOBRE
 # ---------------------------------------------------------
